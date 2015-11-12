@@ -1,0 +1,37 @@
+{
+    "news_detail": [
+        {	"title"		: "Dans la salle de bain de Garance Doré",
+            "thumb"		: "http://phylia.com/pdm/wp-content/uploads/vogueparis-19_6001.jpg",
+            "thumbHover": "http://phylia.com/pdm/wp-content/uploads/vogueparis1.png",
+            "content"	: "http://phylia.com/pdm/wp-content/uploads/Vogue-Paris.jpg"
+        },
+        {	"title"		: "Hairs Apparent",
+            "thumb"		: "http://phylia.com/pdm/wp-content/uploads/Sunday-Times-Cover.jpg",
+            "thumbHover": "http://phylia.com/pdm/wp-content/uploads/sunday-Times.png",
+            "content"	: "http://phylia.com/pdm/wp-content/uploads/Sunday-Times-Josh-Wood.jpg"
+        },
+        {	"title"		: "Cult Favorites",
+            "thumb"		: "http://phylia.com/pdm/wp-content/uploads/VANITY-FAIR-COVER.png",
+            "thumbHover": "http://phylia.com/pdm/wp-content/uploads/press13.png",
+            "content"	: "http://phylia.com/pdm/wp-content/uploads/Vanity-Fair1.jpg"
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

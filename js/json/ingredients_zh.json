@@ -1,0 +1,224 @@
+{
+    "elements": [
+        {
+            "calories": "大腸桿菌",
+            "index": "<10",
+            "unit": "CFU/克"
+        },
+        {
+            "calories": "銀",
+            "index": "<0.015",
+            "unit": "毫克/升"
+        },
+        {
+            "calories": "脂肪卡路里",
+            "index": "0",
+            "unit": "大卡/100克"
+        },
+        {
+            "calories": "反式脂肪",
+            "index": "<0.1",
+            "unit": "%"
+        },
+        {
+            "calories": "總脂肪",
+            "index": "<0.1",
+            "unit": "%"
+        },
+        {
+            "calories": "維生素A",
+            "index": "<0.01",
+            "unit": "IU/100克"
+        },
+        {
+            "calories": "膽固醇",
+            "index": "<3.5",
+            "unit": "毫克/升"
+        },
+        {
+            "calories": "蛋白質",
+            "index": "2.3",
+            "unit": "%"
+        },
+        {
+            "calories": "飽和脂肪",
+            "index": "<0.1",
+            "unit": "%"
+        },
+        {
+            "calories": "水份活度",
+            "index": "0.999",
+            "unit": "單位"
+        },
+        {
+            "calories": "酸鹼值",
+            "index": "3.1",
+            "unit": "單位"
+        },
+        {
+            "calories": "硒",
+            "index": "0.13",
+            "unit": "毫克/升"
+        },
+        {
+            "calories": "糖",
+            "index": "0.6",
+            "unit": "%"
+        },
+        {
+            "calories": "鋇",
+            "index": "0.022",
+            "unit": "毫克/升"
+        },
+        {
+            "calories": "水分",
+            "index": "96.8",
+            "unit": "%"
+        },
+        {
+            "calories": "鈉",
+            "index": "233",
+            "unit": "毫克/100克"
+        },
+        {
+            "calories": "砷",
+            "index": "0.084",
+            "unit": "毫克/升"
+        },
+        {
+            "calories": "銻",
+            "index": "0.038",
+            "unit": "毫克/升"
+        },
+        {
+            "calories": "鎘",
+            "index": "<0.015",
+            "unit": "毫克/升"
+        },
+        {
+            "calories": "鈹",
+            "index": "<0.015",
+            "unit": "毫克/升"
+        },
+        {
+            "calories": "鐵",
+            "index": "0.96",
+            "unit": "毫克/100克"
+        },
+        {
+            "calories": "鋅",
+            "index": "7.8",
+            "unit": "毫克/升"
+        },
+        {
+            "calories": "銅",
+            "index": "1.1",
+            "unit": "毫克/升"
+        },
+        {
+            "calories": "維生素",
+            "index": "6.06",
+            "unit": "毫克/100克"
+        },
+        {
+            "calories": "汞",
+            "index": "<0.0002",
+            "unit": "毫克/升"
+        },
+        {
+            "calories": "鉈",
+            "index": "<0.075",
+            "unit": "毫克/升"
+        },
+        {
+            "calories": "鈣",
+            "index": "2.3",
+            "unit": "mg/100g"
+        },
+        {
+            "calories": "灰分",
+            "index": "0.64",
+            "unit": "%"
+        },
+        {
+            "calories": "總碳水化合物",
+            "index": "0.3",
+            "unit": "%"
+        },
+        {
+            "calories": "生菌數",
+            "index": "<10",
+            "unit": "CFU/克"
+        },
+        {
+            "calories": "鈷",
+            "index": "0.048",
+            "unit": "毫克/升"
+        },
+        {
+            "calories": "膳食纖維",
+            "index": "0.49",
+            "unit": "%"
+        },
+        {
+            "calories": "鎳",
+            "index": "0.45",
+            "unit": "毫克/升"
+        },
+        {
+            "calories": "鉬",
+            "index": "0.36",
+            "unit": "毫克/升"
+        },
+        {
+            "calories": "鉻",
+            "index": "0.12",
+            "unit": "毫克/升"
+        },
+        {
+            "calories": "鉛",
+            "index": "<0.025",
+            "unit": "毫克/升"
+        },
+        {
+            "calories": "釩",
+            "index": "0.39",
+            "unit": "毫克/升"
+        },
+        {
+            "calories": "大腸菌群",
+            "index": "<10",
+            "unit": "CFU/克"
+        },
+        {
+            "calories": "總熱量",
+            "index": "10",
+            "unit": "大卡/100克"
+        },
+        {
+            "calories": "李斯特菌",
+            "index": "負",
+            "unit": "/25克"
+        },
+        {
+            "calories": "霉",
+            "index": "<10",
+            "unit": "CFU/克"
+        },
+        {
+            "calories": "沙門氏菌",
+            "index": "負",
+            "unit": "/25克"
+        },
+        {
+            "calories": "金黃色葡萄球菌",
+            "index": "<10",
+            "unit": "CFU/克"
+        },
+        {
+            "calories": "酵母",
+            "index": "<10",
+            "unit": "CFU/克"
+        }
+    ]
+}

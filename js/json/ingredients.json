@@ -1,0 +1,224 @@
+{
+    "elements": [
+        {
+            "calories": "Source",
+            "index": "<10",
+            "unit": "CFU/g"
+        },
+        {
+            "calories": "Escherichia coli",
+            "index": "<0.015",
+            "unit": "mg/L"
+        },
+        {
+            "calories": "Silver",
+            "index": "0",
+            "unit": "Cal/100g"
+        },
+        {
+            "calories": "Calories from fat",
+            "index": "<0.1",
+            "unit": "%"
+        },
+        {
+            "calories": "Trans-Fat",
+            "index": "<0.1",
+            "unit": "%"
+        },
+        {
+            "calories": "Total Fat",
+            "index": "<0.01",
+            "unit": "IU/100g"
+        },
+        {
+            "calories": "Vitamin A",
+            "index": "<3.5",
+            "unit": "mg/100g"
+        },
+        {
+            "calories": "Cholesterol",
+            "index": "2.3",
+            "unit": "%"
+        },
+        {
+            "calories": "Proteins",
+            "index": "<0.1",
+            "unit": "%"
+        },
+        {
+            "calories": "Saturated Fat",
+            "index": "0.999",
+            "unit": "Units"
+        },
+        {
+            "calories": "Water Activity aw",
+            "index": "3.1",
+            "unit": "Units"
+        },
+        {
+            "calories": "pH",
+            "index": "0.13",
+            "unit": "mg/L"
+        },
+        {
+            "calories": "Selenium",
+            "index": "0.6",
+            "unit": "%"
+        },
+        {
+            "calories": "Sugars",
+            "index": "0.022",
+            "unit": "mg/L"
+        },
+        {
+            "calories": "Barium",
+            "index": "96.8",
+            "unit": "%"
+        },
+        {
+            "calories": "Moisture",
+            "index": "233",
+            "unit": "mg/100g"
+        },
+        {
+            "calories": "Sodium",
+            "index": "0.084",
+            "unit": "mg/L"
+        },
+        {
+            "calories": "Arsenic",
+            "index": "0.038",
+            "unit": "mg/L"
+        },
+        {
+            "calories": "Antimony",
+            "index": "<0.015",
+            "unit": "mg/L"
+        },
+        {
+            "calories": "Cadmium",
+            "index": "<0.015",
+            "unit": "mg/L"
+        },
+        {
+            "calories": "Beryllium",
+            "index": "0.96",
+            "unit": "mg/100g"
+        },
+        {
+            "calories": "Iron",
+            "index": "7.8",
+            "unit": "mg/L"
+        },
+        {
+            "calories": "Zinc",
+            "index": "1.1",
+            "unit": "mg/L"
+        },
+        {
+            "calories": "Copper",
+            "index": "6.06",
+            "unit": "mg/100g"
+        },
+        {
+            "calories": "Vitamin C",
+            "index": "<0.0002",
+            "unit": "mg/L"
+        },
+        {
+            "calories": "Mercury",
+            "index": "<0.075",
+            "unit": "mg/L"
+        },
+        {
+            "calories": "Thallium",
+            "index": "2.3",
+            "unit": "mg/100g"
+        },
+        {
+            "calories": "Calcium",
+            "index": "0.64",
+            "unit": "%"
+        },
+        {
+            "calories": "Ash",
+            "index": "0.3",
+            "unit": "%"
+        },
+        {
+            "calories": "Total Carbohydrates",
+            "index": "<10",
+            "unit": "CFU/g"
+        },
+        {
+            "calories": "Aerobic Plate Count, APC",
+            "index": "0.048",
+            "unit": "mg/L"
+        },
+        {
+            "calories": "Cobalt",
+            "index": "0.49",
+            "unit": "%"
+        },
+        {
+            "calories": "Dietary Fiber",
+            "index": "0.45",
+            "unit": "mg/L"
+        },
+        {
+            "calories": "Nickel",
+            "index": "0.36",
+            "unit": "mg/L"
+        },
+        {
+            "calories": "Molybdenum",
+            "index": "0.12",
+            "unit": "mg/L"
+        },
+        {
+            "calories": "Chromium",
+            "index": "<0.025",
+            "unit": "mg/L"
+        },
+        {
+            "calories": "Lead",
+            "index": "0.39",
+            "unit": "mg/L"
+        },
+        {
+            "calories": "Vanadium",
+            "index": "<10",
+            "unit": "CFU/g"
+        },
+        {
+            "calories": "Coliforms",
+            "index": "10",
+            "unit": "Cal/100g"
+        },
+        {
+            "calories": "Total Calories",
+            "index": "Negative",
+            "unit": "/25 g"
+        },
+        {
+            "calories": "Listeria spp.",
+            "index": "<10",
+            "unit": "CFU/g"
+        },
+        {
+            "calories": "Mold",
+            "index": "Negative",
+            "unit": "/25 g"
+        },
+        {
+            "calories": "Salmonella",
+            "index": "<10",
+            "unit": "CFU/g"
+        },
+        {
+            "calories": "Staphylococcus aureus",
+            "index": "<10",
+            "unit": "CFU/g"
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+[FTP OK]
+Action	: New add folder	
+Path	: include
+
+[FTP OK]
+Action	: New add file		
+Path	: mySQL.php	
+
+[FTP OK]
+Action	: Update script from old Jquery version [ live() -- > on() ]
+Path	: profiles/commerce_kickstart/modules/commerce_kickstart/commerce_kickstart_search/commerce_kickstart_search.js
+	訊息: Object doesn't support this property or method
+	行: 7
+	字元: 7
+	程式碼: 0
+	URI: http://localhost/f/profiles/commerce_kickstart/modules/commerce_kickstart/commerce_kickstart_search/commerce_kickstart_search.js?mq2inv
+
+[FTP OK]
+Action	: Fn.isIE2() Copy from Fn.isIE() insert to 'var IE6' & 'var IE7' to avoid error
+Path	: profiles\commerce_kickstart\themes\omega\omega\js\jquery.formalize.js
+
+[FTP OK - 24/Jul/13]
+Action	: Replace script to advoid 
+Problem	: Error of 'f.msie'
+Path	: misc\jquery.ba-bbq.js
+Line	: 1st Fn.	[function ($, i, b)]
+Update	: h = navigator.userAgent.match(/msie/i) && (g === b || g < 8),
+ORG		: h = f.msie && (g === b || g < 8),
+
+[FTP OK - 24/Jul/13]
+Action	: Replaced 'jQuery.browser.msie' by isIE()
+Problem	: Error of 'msie'
+Path	: modules\overlay\overlay-parent.js
+Line	: 899
+Content	: Drupal.overlay.makeDocumentUntabbable = function (context) {
+
+[FTP OK - 6-Aug-13]
+Action	: use 'one()' to replace 'once()'
+Problem	: Error of 'once()', because of imported jqueryUI script
+Path	: profiles\commerce_kickstart\themes\omega\omega\js\omega-mediaqueries.js
+
+[FTP OK - 6-Aug-13]
+Action	: Builded isIE3() & isFF() in same page
+Problem	: Undefined of '$.browser.msie' & '$.browser.mozilla'
+Path	: profiles\commerce_kickstart\libraries\jquery_ui_spinner\ui.spinner.js  &  ui.spinner.min.js
+
+[FTP OK - 28-Aug-13]
+Action	: Replaced 'live()' from 'on()'
+Problem	: Error of 'live()'
+Path	: profiles\commerce_kickstart\modules\contrib\commerce_add_to_cart_confirmation\js\commerce_add_to_cart_confirmation.js
+
+[FTP OK - 28-Aug-13]
+Action	: Added 'base_path()' 
+Problem	: Not valid google analytics JS path
+Path	: profiles\commerce_kickstart\themes\commerce_kickstart_theme\template.php
+
+[FTP OK - 28-Aug-13]
+Action	: Replaced by new version 'http://malsup.github.io/min/jquery.form.min.js'
+Problem	: Product admin page cannot save via ajax
+Path	: misc/jquery.form.js
+
+[FTP OK - 28-Aug-13]
+Action	: Replaced by isIE4(), copied ORG file
+Problem	: No 'msie'
+Path	: misc\ui\jquery.ui.dialog.min.js
+
+[FTP OK - 28-Aug-13]
+Action	: Replaced 'once.()' by 'one()'
+Problem	: No 'once()'
+Path	: modules\toolbar\toolbar.js
+
+[FTP OK - 28-Aug-13]
+Action	: Replaced 'once.()' by 'one()'
+Problem	: No 'once()'
+Path	: profiles/commerce_kickstart/modules/contrib/commerce_hosted_pci/commerce_hosted_pci.js
+
+
+
