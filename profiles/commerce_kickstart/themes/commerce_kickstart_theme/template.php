@@ -9,24 +9,17 @@
 // bun.php
 include('bun.php');
 
-// Google Analytics
-	drupal_add_js(base_path().path_to_theme().'/js/googleAnalytics.js', 
+	drupal_add_js(base_path().path_to_theme().'/js/googleAnalytics.js',
 		array('type' => 'file', 'scope' => 'header',  'type' => 'external'));
-// jQuery
-/* 	drupal_add_js('http://code.jquery.com/jquery-1.10.2.min.js', 
-		array('type' => 'file', 'scope' => 'header',  'type' => 'external')); */
-// jquery-migrate.js
-/* 	drupal_add_js('http://code.jquery.com/jquery-migrate-1.2.1.min.js', 
-		array('type' => 'file', 'scope' => 'header',  'type' => 'external')); */
-// bun2013.js
-	drupal_add_js('//bunnywong.com/js/bun2013.js', 
+
+  drupal_add_js(base_path().'profiles/commerce_kickstart/themes/commerce_kickstart_theme/js/custom_function.js',
 		array('type' => 'file', 'scope' => 'header',  'type' => 'external'));
-//	[in] bun.js
-	drupal_add_js(base_path().'profiles/commerce_kickstart/themes/commerce_kickstart_theme/js/bun.js', 
+
+	drupal_add_js(base_path().'profiles/commerce_kickstart/themes/commerce_kickstart_theme/js/app.js',
 		array('type' => 'file', 'scope' => 'header'));
-//	[in] bun_index.js
-	drupal_add_js(base_path().'profiles/commerce_kickstart/themes/commerce_kickstart_theme/js/bun_index.js', 
-		array('type' => 'file', 'scope' => 'header'));		
+
+	drupal_add_js(base_path().'profiles/commerce_kickstart/themes/commerce_kickstart_theme/js/bun_index.js',
+		array('type' => 'file', 'scope' => 'header'));
 /**
  * Preprocess variables for html.tpl.php
  *
