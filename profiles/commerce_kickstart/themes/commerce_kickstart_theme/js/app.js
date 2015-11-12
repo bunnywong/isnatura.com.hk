@@ -80,13 +80,8 @@ function imgPath(e){
 
 /*	Global: Variable
 --------------------	*/
-if(isLocalhost() == true){
-	var urlHome = 'http://localhost/f';
-	var checkOut ='http://localhost/f/cart';
-}else{
-	var urlHome = 'http://www.isnatura.com.hk';
-	var checkOut ='http://www.isnatura.com.hk/cart';
-}
+	var urlHome = location.origin;
+	var checkOut = urlHome + '/cart';
 
 /*	Fn. S T A R T
 ----------------------------------------------------------------------------------------------------	*/
@@ -287,7 +282,7 @@ function fixbar(){
 		}
 
 		var menu_product	= '#block-system-main-menu li:nth-child(6)';
-		var submenuContent 	= '<ul id="subMenu_doc"><a href="' + back2root() + iszh('zh/') +'science"><li>' + science + '</li></a><a href="' + back2root()  + iszh('zh/') + 'documentation"><li>' + documentation + '</li></a></ul>';
+		var submenuContent  = '<ul id="subMenu_doc"><a href="' + back2root() + iszh('zh/') +'science"><li>' + science + '</li></a><a href="' + back2root()  + iszh('zh/') + 'documentation"><li>' + documentation + '</li></a></ul>';
 
 		$(menu_product).append(submenuContent);
 
@@ -300,18 +295,20 @@ function fixbar(){
 
 	function subMenu_Product(){
 		if(iszh()){
-			var FulvicAcid	= '富里酸精華素';
-			var hairCare	= '頭髮護理';
-			var heavyMetal	= '重金屬檢驗';
+      var FulvicAcid    = '富里酸精華素';
+      var FulvicAcidSet = 'ISNATURA富里酸排毒精華加強型80+ 禮盒套裝';
+      var hairCare      = '頭髮護理';
+      var heavyMetal    = '重金屬檢驗';
 
 		}else{
-			var FulvicAcid	= 'Fulvic Acid';
-			var hairCare 	= 'Hair Care';
-			var heavyMetal 	= 'Heavy Metal';
+      var FulvicAcid    = 'Fulvic Acid';
+      var FulvicAcidSet = 'Purified Fulvic Acid Extra Set';
+      var hairCare      = 'Hair Care';
+      var heavyMetal    = 'Heavy Metal';
 		}
 
 		var menu_product	= '#block-system-main-menu li:nth-child(4)';
-		var submenuContent 	= '<ul id="subMenuProduct"><a href="' + back2root() + iszh('zh/') +'pure-concentrated-fulvic-acid"><li>' + FulvicAcid + '</li></a><a href="' + back2root()  + iszh('zh/') + 'hair-care"><li>' + hairCare + '</li></a><a href="' + back2root()  + iszh('zh/') + 'nissenmedica-heavy-metal-screen-test"><li>' + heavyMetal + '</li></a></ul>';
+		var submenuContent 	= '<ul id="subMenuProduct"><a href="' + back2root() + iszh('zh/') +'fulvic-acid"><li>' + FulvicAcid + '</li></a><a href="' + back2root()  + iszh('zh/') + 'hair-care"><li>' + hairCare + '</li></a><a href="' + back2root()  + iszh('zh/') + 'nissenmedica-heavy-metal-screen-test"><li>' + heavyMetal + '</li></a></ul>';
 
 		$(menu_product).append(submenuContent);
 
@@ -986,7 +983,8 @@ function product_zh(e){	// Eng & Chi convert
 							['avantari-renaturation-conditioner', 'Avantari Renaturation Conditioner', '護理潤髮乳'],
 							['scalp-care', 'Scalp Care', '頭皮護理精華'],
 							['hair-treatment-2', 'Hair Treatment II', '深層護髮精華 II'],
-							['pure-concentrated-fulvic-acid', 'Pure Concentrated Fulvic Acid', '富里酸精華素'],
+              ['pure-concentrated-fulvic-acid', 'Pure Concentrated Fulvic Acid', '富里酸精華素'],
+							['purified-fulvic-acid-extra-set', 'Purified Fulvic Acid Extra Set', 'ISNATURA富里酸排毒精華加強型80+ 禮盒套裝'],
 							['avantari-rejuvenating-shampoo-and-conditioner', 'Avantari Rejuvenating Shampoo and Conditioner', ' 洗護套裝'],
 							['avantari-re2-hair-care-set', 'Avantari Re2 Hair Care Set', '護髮套裝 4 件'],
 							['nissenmedica-heavy-metal-screen-test', 'Nissenmedica Heavy Metal Screen Test', 'Nissenmedica尼森醫療器材。重金屬檢驗試劑'],
@@ -1084,12 +1082,25 @@ function page_product(){
 		$('.tabIndex:first-child a').css({'padding-top':'15px','top':'0px','background-color':'transparent'});
 		$('.tabIndex a').mouseover(function(){
 			var tagPos = $(this).parent().index();	// Start from [0]
-			if(pathExist('pure-concentrated-fulvic-acid') || pathExist('avantari-re2-hair-care-set')
-							|| pathExist('3-step-kit')	|| pathExist('nissenmedica-heavy-metal-screen-test') ){
-							// nth happen, fastest debug @_@
-			}else{
-				tagPos++;							// Adjust it start from [1]
+
+			if (
+        pathExist('pure-concentrated-fulvic-acid') ||
+        pathExist('purified-fulvic-acid-extra-set') ||
+        pathExist('avantari-re2-hair-care-set') ||
+        pathExist('3-step-kit')	||
+        pathExist('nissenmedica-heavy-metal-screen-test') ){
+				// no adjustment
 			}
+      else {
+        /*
+          'hair-treatment-2',
+          'scalp-care',
+          'avantari-renaturation-conditioner',
+          'avantari-regenerating-shampoo',
+          'avantari-rejuvenating-shampoo-and-conditioner',
+        */
+        tagPos++;              // Adjust it start from [1]
+      }
 
 			$('.tabIndex a')						// Clear tab
 				.css({'paddingTop':'10px','background-color':'#EEEEEE','top':'-1px','position':'relative','z-index':'0'});
@@ -1183,7 +1194,9 @@ function pageOnly(){
 		diy_footer();
 	}
 
-	var product = ['pure-concentrated-fulvic-acid',
+	var product = [
+          'pure-concentrated-fulvic-acid',
+          'purified-fulvic-acid-extra-set',
 					'hair-treatment-2',
 					'scalp-care',
 					'avantari-renaturation-conditioner',
@@ -1199,7 +1212,8 @@ function pageOnly(){
 	}
 
 	if(pathExist('hair-care')) page_haircare();					// Page.HairCare
-	if(pathExist('products')) page_products();					// Page.Products
+  if(pathExist('products')) page_products();          // Page.Products
+	if(pathExist('fulvic-acid')) page_haircare();					// Page.Products
 	if(pathExist('cart') == true) updateEveryRow();
 	if(pathExist('checkout') == true) checkout_insertImg();
 	if(pathExist('blog') == true || pathExist('comment') == true) submitRefine();

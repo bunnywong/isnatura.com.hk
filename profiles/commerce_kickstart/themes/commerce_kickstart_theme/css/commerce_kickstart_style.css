@@ -432,16 +432,16 @@ media screen and(max - width: 1024px) { /* Specific to this particular image */
 
 /*	Index | Top fix bar (#FB)
 --------------------	*/
-	/* FB Menu */	
+	/* FB Menu */
 #region-user-first{background-color:rgba(0, 0, 0, 0.7); left:-10px!important;}
-#zone-user-wrapper{height:50px; top:0; text-transform:lowercase;}	
+#zone-user-wrapper{height:50px; top:0; text-transform:lowercase;}
 #region-user-first{left:0; position:fixed; width:100%; display:inline; height:50px!important;}
 #region-user-first h2{display:none;}											/* Hide Logo title */
 #region-user-first li{display:inline-block; float:right; font-size:1.1em;}	/* Menu Ctrl */
 #region-user-first li a{color:white; font-family:'Quicksand', sans-serif; position:relative; top:0px; font-size:18px;}
 #region-user-first li a:hover{color:lightblue;}  /* Ref: #20B2AA*/
 
-	/* Site Logo */	
+	/* Site Logo */
 #logo_img{height:40px; margin:5px 5px 5px 10px;}
 #block-block-2{float:left; color:white;  font-family:'EB Garamond', serif; font-size:2.5em;}
 #block-block-2 a{color:white;}
@@ -453,25 +453,25 @@ media screen and(max - width: 1024px) { /* Specific to this particular image */
 
 	/* Menu.subMenu.Documentation */
 #subMenu_doc{display:none; width:0;}	/* Initial hidden */
-#subMenu_doc li{color:white; background-color:#666666; float:left; left:-60px; opacity:0.75; padding:20px; position:relative; text-align:center; width:120px; font-size:1em;}	
+#subMenu_doc li{color:white; background-color:#666666; float:left; left:-60px; opacity:0.75; padding:20px; position:relative; text-align:center; width:120px; font-size:1em;}
 #subMenu_doc li:hover{opacity:1;}
 
 	/* Menu.subMenu.Product */
 #subMenuProduct{display:none; width:0;}	/* Initial hidden */
-#subMenuProduct li{color:white; background-color:#666666; float:left; left:-60px; opacity:0.75; padding:20px; position:relative; text-align:center; width:120px; font-size:1em;}	
+#subMenuProduct li{color:white; background-color:#666666; float:left; left:-60px; opacity:0.75; padding:20px; position:relative; text-align:center; width:120px; font-size:1em;}
 #subMenuProduct li:hover{opacity:1;}
 
 	/* Menu.subMenu.Social */
 #subMenuSocial{display:none; width:0;}	/* Initial hidden */
-#subMenuSocial li{color:white; background-color:#666666; float:left; left:-60px; opacity:0.75; padding:20px; position:relative; text-align:center; width:120px; font-size:1em;}	
+#subMenuSocial li{color:white; background-color:#666666; float:left; left:-60px; opacity:0.75; padding:20px; position:relative; text-align:center; width:120px; font-size:1em;}
 #subMenuSocial li:hover{opacity:1;}
 
 	/* Menu.subMenu.AboutUs */
 #subMenuAbout{display:none; width:0;}	/* Initial hidden */
-#subMenuAbout li{color:white; background-color:#666666; float:left; left:-60px; opacity:0.75; padding:20px; position:relative; text-align:center; width:120px; font-size:1em;}	
+#subMenuAbout li{color:white; background-color:#666666; float:left; left:-60px; opacity:0.75; padding:20px; position:relative; text-align:center; width:120px; font-size:1em;}
 #subMenuAbout li:hover{opacity:1;}
 
-	/* Cart.SubMenu */	
+	/* Cart.SubMenu */
 .block-shopping-cart-block .content .view-shopping-cart .line-item-summary ul.links {display:none;}	/* Hide [checkout] */
 #m_menu{border-radius:5px; font-family:'Quicksand', sans-serif; float:right; font-size:19px;position:relative; width:110px; top:0px; display:none; opacity:0.9;}
 #m_menu > option{height:50px;}
@@ -506,7 +506,7 @@ media screen and(max - width: 1024px) { /* Specific to this particular image */
 
 #fbMenuWrap form{display:inline;}
 #fbBtnSearch{background:transparent; cursor:pointer; height:30px; right:55px; position:absolute; top:10px;width:30px;}
-	
+
 /*	Main Content /content
 --------------------	*/
 #page-title{display:none;}
@@ -547,7 +547,7 @@ media screen and(max - width: 1024px) { /* Specific to this particular image */
 .commerce-product-field-commerce-price{position:relative; top:20px;}	/* Price */
 .form-item-quantity label{display:inline-table;}	/* QTY box */
 #edit-quantity{height:40px; width:100px;}					/* QTY box */
-/* .attribute-widgets{display:none;} */			/* [e] Hide the size option field ///  */ 
+/* .attribute-widgets{display:none;} */			/* [e] Hide the size option field ///  */
 #qtyNadd2cartWrap{float:left; width:450px;}
 
 
@@ -583,15 +583,15 @@ ul	{margin:0; padding:0;}	/* clear inherit */
 #page_singalProductTab{font-family:arial; text-align:justify; width:460px; font-weight:bold;}
 #page_singalProductTab p{font-size:13px!important;}
 .tabIndex{margin-right:5px; display:inline; text-transform:uppercase; }
-.tabIndex a{border:1px solid #cccccc; 
-	border-bottom:0; 
-	cursor: pointer; 
-	font-size:13px; 
-	font-weight:bold; 
+.tabIndex a{border:1px solid #cccccc;
+	border-bottom:0;
+	cursor: pointer;
+	font-size:13px;
+	font-weight:bold;
 	padding:10px 4px 3px 4px;
-	border-bottom:1px solid white; 
-	position:relative; 
-	background-color:#EEEEEE; 
+	border-bottom:1px solid white;
+	position:relative;
+	background-color:#EEEEEE;
 	font-family:'Quicksand', sans-serif;
 	top:-1px;}
 .tabContent{border:1px solid #cccccc;
@@ -627,7 +627,7 @@ figure.field-name-field-images{text-align:center;}					/* Img frame */
 .page-products .view-display-products li header h2, .page-hair-care .view-display-products li header h2
 	{background:#e9e9e9; border-top:4px solid black; font-weight:100; width:400px; left:-40px; padding:5px 20px 5px 20px; position:relative; top:10px; height:50px;}
 
-	
+
 .page-products .view-display-products li header h2:hover, .page-hair-care .view-display-products li header h2:hover{border-color:#00aed9;}
 
 
@@ -641,7 +641,7 @@ figure.field-name-field-images img{margin:0 auto 0 auto;}										/* Img frame*
 	/* pg4, pg3 */
 #node-drinks-56 figure, #node-drinks-63 figure,			/* Localhost 	*/
 #node-drinks-45 figure, #node-drinks-59 figure			/* Online		*/
-{width:420px; margin-left:-37px; }	
+{width:420px; margin-left:-37px; }
 #node-drinks-56 figure img, #node-drinks-63 figure img,	/* Localhost 	*/
 #node-drinks-45 figure img, #node-drinks-59 figure img	/* Online		*/
 {position:relative; width:500px; top:100px;}
@@ -653,65 +653,65 @@ figure.field-name-field-images img{margin:0 auto 0 auto;}										/* Img frame*
 
 /*	Checkout
 -------------------------	*/
-#edit-paypal-ec{display:none;} /* Hide paypay express */ 
+#edit-paypal-ec{display:none;} /* Hide paypay express */
 	/* Page.Review Order */
 	.commerce-paypal-ec-icon{top:0;}
 	.page-user .tabs ul.primary{}	/* titles */
 
-#edit-commerce-shipping-shipping-service div{width:100%;} /* Shipping option */	
+#edit-commerce-shipping-shipping-service div{width:100%;} /* Shipping option */
 
-	/*	Index | Hide org layout 
+	/*	Index | Hide org layout
 	--------------------	*/
-.bx-controls{}										/*	Slider controller	*/	
+.bx-controls{}										/*	Slider controller	*/
 .navigation .primary-menu ul li{width:auto!important;}
 #views-exposed-form-display-products-page{display:none!important;}	/* Search <input> hidden */
 
 /*	Slider div	*/
 #block-views-demo-content-slideshow-block-1 .event-slider .views-field-nothing{
-	background-image:none!important; 
-	display			:none!important; 
+	background-image:none!important;
+	display			:none!important;
 	text-indent		:0!important;}
 
 /*	Slider text	<em> */
 #block-views-demo-content-slideshow-block-1 .views-field-nothing span.field-content em{
-	color			:#F3EB7E!important; 
-	font-family		:'Chelsea Market', cursive!important; 
-	font-size		:32px!important; 
-	font-style		:normal!important; 
+	color			:#F3EB7E!important;
+	font-family		:'Chelsea Market', cursive!important;
+	font-size		:32px!important;
+	font-style		:normal!important;
 	font-weight		:bold!important;
-	text-align		:center!important; 
-	line-height		:50px!important; 
-	text-indent		:0!important; 
+	text-align		:center!important;
+	line-height		:50px!important;
+	text-indent		:0!important;
 	text-transform	:uppercase!important;}
 
 /*	Slider text	<span> */
 #block-views-demo-content-slideshow-block-1 .views-field-nothing span.field-content{
-	background-color:rgba(0, 0, 0, 0.4)!important; 
-	height			:auto!important; 
+	background-color:rgba(0, 0, 0, 0.4)!important;
+	height			:auto!important;
 	padding			:20px!important;
-	color			:white!important; 
-	font-size		:15px!important; 
-	font-weight		:400!important; 
-	line-height		:20px!important; 
-	text-align		:left!important; 
+	color			:white!important;
+	font-size		:15px!important;
+	font-weight		:400!important;
+	line-height		:20px!important;
+	text-align		:left!important;
 	text-indent		:0!important;
 	position		:fixed!important;}
-	
-/* Slider position Ctrl */	
+
+/* Slider position Ctrl */
 #block-views-demo-content-slideshow-block-1{left:0; position:fixed;}		 	/* Slider frame */
 .views-field-field-image img{left:0; top:-90px; position:absolute; width:auto;}		/* Slider image */
-							
+
 /* 1.<div> Aloe <div> */
 #block-views-demo-content-slideshow-block-1 .views-row-1 .views-field-nothing{background-image:none!important; display:none!important; left:800px!important;}
-	/* 1.2<span> */	
+	/* 1.2<span> */
 	#block-views-demo-content-slideshow-block-1 .views-row-1 .views-field-nothing span.field-content{width:350px!important;}
-	
+
 /* Slider 2 - Farm <div> */
 #block-views-demo-content-slideshow-block-1 .views-row-2 .views-field-nothing{background-image:none!important; display:none!important;}
 	/* <span> & <em> */
 	#block-views-demo-content-slideshow-block-1 .views-row-2 .views-field-nothing span.field-content{width:360px!important;}
 	#block-views-demo-content-slideshow-block-1 .views-row-2  em{line-height:10px;}
-	
+
 /* Slider 3 - Flower <div> */
 #block-views-demo-content-slideshow-block-1 .views-row-3 .views-field-nothing{background-image:none!important; display:none!important; width:370px!important; left:50px!important;}
 	/* <span> & <em> */
@@ -721,9 +721,9 @@ figure.field-name-field-images img{margin:0 auto 0 auto;}										/* Img frame*
 #sliderTitle{display:block; margin-bottom:-10px; text-align:left;}	/* working /// */
 .seeMore{background:black; color:#f6962d; float:right; padding:5px; cursor:pointer; padding:5px 30px 5px 30px; margin-top:-10px;}
 .seeMore:hover{background:#f6962d; color:white;}
-	
-	
-	
+
+
+
 /*	Testing Lab
 -------------------------	*/
 .views-table figure{height:auto; margin-bottom:-10px;}
@@ -777,7 +777,7 @@ figure.field-name-field-images img{margin:0 auto 0 auto;}										/* Img frame*
 	background: url('http://www.isnatura.com.hk/profiles/commerce_kickstart/themes/commerce_kickstart_theme/images/ico_phone_bw.png') no-repeat 50% 50%;
 	width: 30px;
 	height: 31px;
-	margin: 0 auto;}	
+	margin: 0 auto;}
 .sideTool .email{
 	background: url('http://www.isnatura.com.hk/profiles/commerce_kickstart/themes/commerce_kickstart_theme/images/ico_email_bw.png') no-repeat 50% 50%;
 	width: 30px;
@@ -794,16 +794,16 @@ figure.field-name-field-images img{margin:0 auto 0 auto;}										/* Img frame*
 	background: url('http://www.isnatura.com.hk/profiles/commerce_kickstart/themes/commerce_kickstart_theme/images/ico_shop_bw.png') no-repeat 50% 50%;
 	width: 30px;
 	height: 31px;
-	margin: 0 auto;}	
-	
+	margin: 0 auto;}
+
 .sideTool .lan_option{
 	background: url('http://www.isnatura.com.hk/profiles/commerce_kickstart/themes/commerce_kickstart_theme/images/ico_lan_bw.png') no-repeat 50% 50%;
 	width: 30px;
 	height: 31px;
 	margin: 0 auto;}
-	
+
 .sideTool .lan_option:hover{background:url('http://www.isnatura.com.hk/profiles/commerce_kickstart/themes/commerce_kickstart_theme/images/ico_lan_c.png') no-repeat 50% 50%;}
-.sideTool .shop:hover{background:url('http://www.isnatura.com.hk/profiles/commerce_kickstart/themes/commerce_kickstart_theme/images/ico_shop_c.png') no-repeat 50% 50%;}	
+.sideTool .shop:hover{background:url('http://www.isnatura.com.hk/profiles/commerce_kickstart/themes/commerce_kickstart_theme/images/ico_shop_c.png') no-repeat 50% 50%;}
 .sideTool .facebook:hover{background:url('http://www.isnatura.com.hk/profiles/commerce_kickstart/themes/commerce_kickstart_theme/images/ico_fb_c.png') no-repeat 50% 50%;}
 .sideTool .email:hover{background:url('http://www.isnatura.com.hk/profiles/commerce_kickstart/themes/commerce_kickstart_theme/images/ico_email_c.png') no-repeat 50% 50%;}
 .sideTool .phone:hover{background:url('http://www.isnatura.com.hk/profiles/commerce_kickstart/themes/commerce_kickstart_theme/images/ico_phone_c.png') no-repeat 50% 50%;}
@@ -816,7 +816,7 @@ figure.field-name-field-images img{margin:0 auto 0 auto;}										/* Img frame*
 /* img, table tr td{border:1px solid pink;}  */
 
 #views-form-commerce-cart-form-default table tbody tr:nth-child(1){}
-	/* Slider controller */	
+	/* Slider controller */
 .ui-spinner-buttons{display:none;}
 	.bx-controls-direction{display:none;}
 /*	.bx-wrapper{}
@@ -824,14 +824,14 @@ figure.field-name-field-images img{margin:0 auto 0 auto;}										/* Img frame*
 	.bx-controls-direction{width:1200px;}
 	.bx-controls-direction{position:absolute; top:-50px;}
 	.bx-prev, .bx-next{color:transparent!important; opacity:.1;}
-	.bx-prev:hover, .bx-next:hover{opacity:.5;} 
-*/	
+	.bx-prev:hover, .bx-next:hover{opacity:.5;}
+*/
 
 	/* Page.Product */
 /*    .page-products .view-display-products li header h2{border:1px solid pink;}
-	#wrap{border:1px pink solid;}	
+	#wrap{border:1px pink solid;}
 	.all-products>li{border:1px lightgray solid;}
-	figure.field-name-field-images{border:1px pink solid;}  
+	figure.field-name-field-images{border:1px pink solid;}
 */
 #imgEnlarge{position:relative; left:200px; top:-500px; width:300%; height:300%; zoom:1.5;}
 #imgEnlarge{border:1px solid pink;}
@@ -865,7 +865,7 @@ figure.field-name-field-images img{margin:0 auto 0 auto;}										/* Img frame*
 #edit-customer-profile-billing-field-source-from-ref-und{width:110px;}
 .form-item-customer-profile-billing-commerce-customer-address-und-0-locality label,
 .form-item-customer-profile-shipping-commerce-customer-address-und-0-locality label
-	{display:inline-block!important; width:178px!important;}	
+	{display:inline-block!important; width:178px!important;}
 #edit-customer-profile-billing-field-source-from-supplement{display:none;}
 
 
@@ -874,4 +874,63 @@ figure.field-name-field-images img{margin:0 auto 0 auto;}										/* Img frame*
 .page-user-register .form-item-captcha-questions-answer-given{clear: both; padding-top: 1em;}
 @media (max-width: 330px){
   .page-user-register .back-to-login {float: left!important; margin-top: 20px!important;}
+}
+
+/* Product List: fulvic-acid; */
+.fulvic-acid {
+  /*border: 1px solid red;*/
+}
+.fulvic-acid ul.all-products > li {
+  /*border: 1px solid blue;*/
+  max-width: 430px;
+}
+.fulvic-acid ul.all-products > li article > .content {
+  margin: 0px;
+  min-width: 430px;
+}
+.fulvic-acid ul.all-products > li h2 {
+  border-top: 4px solid black;
+  padding-top: 10px;
+  margin: 0px;
+  padding-left: 20px;
+  max-width: 410px;
+  background: #e9e9e9;
+  min-height: 20px;
+  line-height: 10px;
+}
+.fulvic-acid ul.all-products > li h2 > a {
+  font-size: 15px;
+  color: black;
+  font-weight: 100;
+  background: #e9e9e9;
+
+}
+.fulvic-acid .field-name-commerce-price {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #20B2AA;
+  background: #e9e9e9;
+  min-height: 30px;
+}
+.fulvic-acid .field-commerce-price {
+ margin-top: -20px!important;
+}
+.fulvic-acid .node-product-type header {
+  /*min-height: 50px;*/
+}
+/* Custom image adjust */
+.fulvic-acid ul.all-products > li.views-row-2 img {
+  position: relative;
+  top: 100px;
+}
+
+/* ================================================================================ */
+/* Product detail */
+.font-light {
+  font-weight: 100;
+}
+.text-content {
+  font-size: 13px;
 }
