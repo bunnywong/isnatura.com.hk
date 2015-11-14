@@ -80,13 +80,8 @@ function imgPath(e){
 
 /*	Global: Variable
 --------------------	*/
-if(isLocalhost() == true){
-	var urlHome = 'http://localhost/f';
-	var checkOut ='http://localhost/f/cart';
-}else{
-	var urlHome = 'http://www.isnatura.com.hk';
-	var checkOut ='http://www.isnatura.com.hk/cart';
-}
+	var urlHome = location.origin;
+	var checkOut = urlHome + '/cart';
 
 /*	Fn. S T A R T
 ----------------------------------------------------------------------------------------------------	*/
