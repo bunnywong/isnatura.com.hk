@@ -308,7 +308,7 @@ function fixbar(){
 		}
 
 		var menu_product	= '#block-system-main-menu li:nth-child(4)';
-		var submenuContent 	= '<ul id="subMenuProduct"><a href="' + back2root() + iszh('zh/') +'pure-concentrated-fulvic-acid"><li>' + FulvicAcid + '</li></a><a href="' + back2root()  + iszh('zh/') + 'hair-care"><li>' + hairCare + '</li></a><a href="' + back2root()  + iszh('zh/') + 'nissenmedica-heavy-metal-screen-test"><li>' + heavyMetal + '</li></a></ul>';
+		var submenuContent 	= '<ul id="subMenuProduct"><a href="' + back2root() + iszh('zh/') +'fulvic-acid"><li>' + FulvicAcid + '</li></a><a href="' + back2root()  + iszh('zh/') + 'hair-care"><li>' + hairCare + '</li></a><a href="' + back2root()  + iszh('zh/') + 'nissenmedica-heavy-metal-screen-test"><li>' + heavyMetal + '</li></a></ul>';
 
 		$(menu_product).append(submenuContent);
 
@@ -1212,7 +1212,8 @@ function pageOnly(){
 	}
 
 	if(pathExist('hair-care')) page_haircare();					// Page.HairCare
-	if(pathExist('products')) page_products();					// Page.Products
+  if(pathExist('products')) page_products();          // Page.Products
+	if(pathExist('fulvic-acid')) page_haircare();					// Page.Products
 	if(pathExist('cart') == true) updateEveryRow();
 	if(pathExist('checkout') == true) checkout_insertImg();
 	if(pathExist('blog') == true || pathExist('comment') == true) submitRefine();
