@@ -282,7 +282,7 @@ function fixbar(){
 		}
 
 		var menu_product	= '#block-system-main-menu li:nth-child(6)';
-		var submenuContent 	= '<ul id="subMenu_doc"><a href="' + back2root() + iszh('zh/') +'science"><li>' + science + '</li></a><a href="' + back2root()  + iszh('zh/') + 'documentation"><li>' + documentation + '</li></a></ul>';
+		var submenuContent  = '<ul id="subMenu_doc"><a href="' + back2root() + iszh('zh/') +'science"><li>' + science + '</li></a><a href="' + back2root()  + iszh('zh/') + 'documentation"><li>' + documentation + '</li></a></ul>';
 
 		$(menu_product).append(submenuContent);
 

@@ -924,3 +924,8 @@ figure.field-name-field-images img{margin:0 auto 0 auto;}										/* Img frame*
 .text-content {
   font-size: 13px;
 }
+
+/* @hardcode: Hide menu */
+#block-system-main-menu ul > li:last-child {
+  display: none;
+}
