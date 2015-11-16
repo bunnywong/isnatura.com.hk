@@ -890,10 +890,13 @@ figure.field-name-field-images img{margin:0 auto 0 auto;}										/* Img frame*
 }
 .fulvic-acid ul.all-products > li h2 {
   border-top: 4px solid black;
+  padding-top: 10px;
   margin: 0px;
   padding-left: 20px;
   max-width: 410px;
   background: #e9e9e9;
+  min-height: 20px;
+  line-height: 10px;
 }
 .fulvic-acid ul.all-products > li h2 > a {
   font-size: 15px;
@@ -909,6 +912,13 @@ figure.field-name-field-images img{margin:0 auto 0 auto;}										/* Img frame*
   font-weight: 400;
   color: #20B2AA;
   background: #e9e9e9;
+  min-height: 30px;
+}
+.fulvic-acid .field-commerce-price {
+ margin-top: -20px!important;
+}
+.fulvic-acid .node-product-type header {
+  /*min-height: 50px;*/
 }
 /* Custom image adjust */
 .fulvic-acid ul.all-products > li.views-row-2 img {
@@ -923,9 +933,4 @@ figure.field-name-field-images img{margin:0 auto 0 auto;}										/* Img frame*
 }
 .text-content {
   font-size: 13px;
-}
-
-/* @hardcode: Hide menu */
-#block-system-main-menu ul > li:last-child {
-  display: none;
 }
