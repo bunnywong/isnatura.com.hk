@@ -296,7 +296,7 @@ function fixbar(){
 	function subMenu_Product(){
 		if(iszh()){
       var FulvicAcid    = '富里酸精華素';
-      var FulvicAcidSet = '富里酸排毒精華禮盒套裝';
+      var FulvicAcidSet = 'ISNATURA富里酸排毒精華加強型80+ 禮盒套裝';
       var hairCare      = '頭髮護理';
       var heavyMetal    = '重金屬檢驗';
 
@@ -984,7 +984,7 @@ function product_zh(e){	// Eng & Chi convert
 							['scalp-care', 'Scalp Care', '頭皮護理精華'],
 							['hair-treatment-2', 'Hair Treatment II', '深層護髮精華 II'],
               ['pure-concentrated-fulvic-acid', 'Pure Concentrated Fulvic Acid', '富里酸精華素'],
-							['purified-fulvic-acid-extra-set', 'Purified Fulvic Acid Extra Set', '富里酸排毒精華禮盒套裝'],
+							['purified-fulvic-acid-extra-set', 'Purified Fulvic Acid Extra Set', 'ISNATURA富里酸排毒精華加強型80+ 禮盒套裝'],
 							['avantari-rejuvenating-shampoo-and-conditioner', 'Avantari Rejuvenating Shampoo and Conditioner', ' 洗護套裝'],
 							['avantari-re2-hair-care-set', 'Avantari Re2 Hair Care Set', '護髮套裝 4 件'],
 							['nissenmedica-heavy-metal-screen-test', 'Nissenmedica Heavy Metal Screen Test', 'Nissenmedica尼森醫療器材。重金屬檢驗試劑'],

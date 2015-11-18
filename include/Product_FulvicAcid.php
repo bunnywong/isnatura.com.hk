@@ -36,8 +36,8 @@
 				<?php ec('<p>Organic Avantari pure fulvic acid is extracted with the highest technology allowing the concentration levels to reach up to 80%.  We guarantee our fulvic acid concentration to be at least 60%.</p>
 				<p>Fulvic acid has the ability to enhance our intake of nutrients allowing our body to absorb the necessary minerals and vitamins for our bodily functions.  The greatest function of fulvic acid is its power to aid the body in cell regeneration, boosting your immune system and increasing your recovery rate.  Fulvic acid has shown to act as a catalyst in the breakdown of toxic pollutants, aiding the body to detoxify.</p>
 				<p>It has been established that fulvic acid is vital in helping to form new species of metal ions, binding with organic pollutants such as pesticides and herbicides, and catalyzing the breakdown of toxic pollutants. Radioactive substances react rapidly with fulvic acid, and only a brief time is required for equilibrium to be reached. All radioactive elements are capable of reacting with fulvic acid and thus forming organo-metal complexes of different adsorptive stability and solubility.</p>',
-				'<p>I.S. Natura 運用獨有的植物和土壤精華提取技術採集到高達80%濃度的有機Avantari富里酸精華素。我們所提取的植物均來自純天然環境生長下的美國亞麗桑娜州和墨西哥沙漠。 我們的品質檢驗保證Avantari富里酸精華素濃度至少是保持在60%以上。 100%有機原材料驗證和生產。</p> 
-				<p>Avantari 富里酸能增強我們的營養素攝入效率，允許我們的身體更好的吸收必要的礦物質和維生素，保持並增強我們的身體機能。 Avantari富里酸最大的功效是説明身體細胞再生。 Avantari富里酸的特殊能力會提升我們免疫系統機能，增加我們受損細胞的恢復效率。研究顯示，Avantari富里酸作為一個催化劑因數，能有效的分解有毒污染物，説明身體排毒。</p> 
+				'<p>ISNATURA運用獨有精華提取技術，的天然植物和土壤中採集到高濃度的有機富里酸精華素。我們所提取的植物均來自純天然環境生長下的美國亞麗桑娜州和 墨西哥沙漠。 我們的品質檢驗保證AVANTARI富里酸精華素濃度至少是保持在60%以上。 100%有機原材料驗證和生產。</p>
+				<p>Avantari 富里酸能增強我們的營養素攝入效率，允許我們的身體更好的吸收必要的礦物質和維生素，保持並增強我們的身體機能。 Avantari富里酸最大的功效是説明身體細胞再生。 Avantari富里酸的特殊能力會提升我們免疫系統機能，增加我們受損細胞的恢復效率。研究顯示，Avantari富里酸作為一個催化劑因數，能有效的分解有毒污染物，説明身體排毒。</p>
 				<p>研究證明Avantari富里酸因子項目能氧化並同化有害重金屬因數。 Avantari富里酸會綁定與粘合有機污染物如：殺蟲劑，除草劑，和催化分解的有毒污染物。</p>
 				<p>Avantari 富里酸最重要的特性是能迅速的和放射性物質發生生物化學反應。在短暫的時間里，達到離子和因數的平衡。所有放射性元素都能夠與富里酸發生生物化學反應，Avantari富里酸能綁定並溶解有害輻射和重金屬物質，提升因數的穩定性。富里酸是人類已知的最好的天然電解質。 Avantari富里酸穩定的因數鏈有能力穩定並逐漸降低我們周圍的放射性元素。</p>');?>
 			</div>
