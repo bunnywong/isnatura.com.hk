@@ -2883,3 +2883,8 @@ html.js #commerce-backoffice-message-form fieldset .fieldset-legend {
   .in-maintenance #page .page-wrapper {
     background: #fff;
     padding: 10px 10px 20px 10px; }
+
+/* Custom Style */
+.node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart label:after {
+  content: "";
+}
